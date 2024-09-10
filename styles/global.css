@@ -3,4 +3,18 @@
     margin: 0;
     box-sizing: border-box;
 }
+:root{
+    --color-red: #E3646E;
+    --color-purple: #BB72E9;
+    --color-blue: #3996DB;
+    --color-green: #82BC4F;
+    --color-yellow: #EABD5F;
 
+    --color-gray-100:#0D0E11;
+    --color-gray-200:#16181D;
+    --color-gray-300:#292C34;
+    --color-gray-400:#878EA1;
+    --color-gray-500:#C0C4CE;
+    --color-gray-600:#E2E4E9;
+    
+}
