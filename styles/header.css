@@ -1,0 +1,11 @@
+.intro {
+
+    background-image: url('/assets/background_intro.png');
+    display: flex;
+    padding: 120px 163px 57px 163px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 94px;
+    align-self: stretch;
+}
