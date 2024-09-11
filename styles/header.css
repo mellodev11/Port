@@ -1,6 +1,9 @@
 .intro {
 
-    background-image: url('/assets/background_intro.png');
+    background: url('/assets/background_intro.png') lightgray 50% / cover no-repeat;
+
+
+
     display: flex;
     padding: 120px 163px 57px 163px;
     flex-direction: column;
@@ -8,4 +11,43 @@
     align-items: center;
     gap: 94px;
     align-self: stretch;
+
+}
+
+.info {
+    display: flex;
+    max-width: 1040px;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+#profile {
+    width: 112px;
+    height: 112px;
+}
+
+#profile img {
+    width: 87.273px;
+    height: 87.273px;
+    flex-shrink: 0;
+    border-radius: 9999px;
+   
+    
+}
+#profile img:last-child{
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    
+}
+
+#border {
+    width: 96px;
+    height: 96px;
+    flex-shrink: 0;
+    border-radius: var(--border-radius-border-full, 999px);
+    border: 2px solid var(--Main-Red, #E3646E);
+    /* margin: 8px 8px 8px 8px ; */
+
 }
