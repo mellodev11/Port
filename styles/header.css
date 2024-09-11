@@ -1,6 +1,6 @@
 .intro {
 
-    background: url('/assets/background_intro.png') lightgray 50% / cover no-repeat;
+    background: url('/Port/assets/background_intro.png') lightgray 50% / cover no-repeat;
 
 
 
@@ -22,32 +22,74 @@
     gap: 80px;
 }
 
+header {
+    display: flex;
+    /* max-width: 680px; */
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+}
+
 #profile {
     width: 112px;
     height: 112px;
+    flex-shrink: 0;
+
 }
 
-#profile img {
+#profile #border img {
     width: 87.273px;
     height: 87.273px;
-    flex-shrink: 0;
     border-radius: 9999px;
-   
-    
 }
-#profile img:last-child{
-    width: 32px;
-    height: 32px;
-    flex-shrink: 0;
-    
-}
+
 
 #border {
     width: 96px;
     height: 96px;
-    flex-shrink: 0;
-    border-radius: var(--border-radius-border-full, 999px);
-    border: 2px solid var(--Main-Red, #E3646E);
-    /* margin: 8px 8px 8px 8px ; */
+    padding: 2.5px;
 
+    border-radius: 999px;
+    border: 2px solid var(--color-red);
+    margin: 4.36;
+
+
+}
+
+#iconCode {
+    width: 10px;
+    /* Definindo a largura do ícone */
+    height: 32px;
+    background-color: var(--color-gray-200);
+    color: var(--color-green);
+}
+
+
+
+#textTitle {
+    align-self: stretch;
+    text-align: center;
+    gap: 20px;
+}
+
+#textTitle h1 {
+    color: var(--color-gray-600);
+    font: var(--title-lg);
+}
+
+#textTitle p:first-child {
+    color: var(--color-gray-500);
+    font: var(--text-subtitle);
+
+}
+
+#textTitle p {
+    color: var(--color-gray-400);
+    font: var(--text-sm);
+
+}
+
+
+#textTitle span {
+    color: var(--color-red);
 }
