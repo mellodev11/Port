@@ -1,6 +1,6 @@
 .intro {
 
-    background: url('/Port/assets/background_intro.png') lightgray 50% / cover no-repeat;
+    background: url('/assets/background_intro.png') lightgray 50% / cover no-repeat;
 
 
 
@@ -16,18 +16,20 @@
 
 .info {
     display: flex;
-    max-width: 1040px;
+    width: 1040px;
     flex-direction: column;
     align-items: center;
     gap: 80px;
+    width: 680px;
 }
 
 header {
     display: flex;
-    /* max-width: 680px; */
+
     flex-direction: column;
     align-items: center;
     gap: 56px;
+    max-width: 1040px;
 }
 
 #profile {
@@ -58,7 +60,7 @@ header {
 
 #iconCode {
     width: 10px;
-    /* Definindo a largura do ícone */
+
     height: 32px;
     background-color: var(--color-gray-200);
     color: var(--color-green);
@@ -70,6 +72,8 @@ header {
     align-self: stretch;
     text-align: center;
     gap: 20px;
+    /* max-width: 680px; */
+    
 }
 
 #textTitle h1 {
@@ -86,10 +90,108 @@ header {
 #textTitle p {
     color: var(--color-gray-400);
     font: var(--text-sm);
-
+   
+    
 }
 
 
 #textTitle span {
     color: var(--color-red);
 }
+
+.tags {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding-block: 8px;
+    font: var(--text-md);
+    color: var(--base-gray-500);
+    text-align: center;
+
+}
+
+.tags a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: white;
+}
+.tags a img {
+    width: 24px;
+    height: 24px;
+    
+
+}
+
+.tag {
+    display: flex;
+    gap: 16px;
+
+   
+}
+
+#tagCss {
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: var(--color-gray-300);
+    border-radius: 999px;
+    
+}
+#tagGitHub {
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: var(--color-gray-300);
+    border-radius: 999px;
+    
+}
+#tagHTML {
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: var(--color-gray-300);
+    border-radius: 999px;
+    
+}
+
+#tagJS{
+   
+        display: flex;
+        padding: 8px 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        background-color: var(--color-gray-300);
+        border-radius: 999px;
+        
+    
+} 
+#tagNodeJs {
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: var(--color-gray-300);
+    border-radius: 999px;
+    
+}
+#tagReact {
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: var(--color-gray-300);
+    border-radius: 999px;
+    
+}
+
