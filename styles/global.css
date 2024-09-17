@@ -36,4 +36,8 @@
 body {
     width: 100%;
     height: 2934px;
+
+}
+.margin{
+    padding-block: 120px;
 }
