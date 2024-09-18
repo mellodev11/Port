@@ -1,5 +1,5 @@
 main {
-    background-color: #554d4d9d;
+    background:var(--color-gray-200);
     display: flex;
     padding: 72px 120px 144px 120px;
     flex-direction: column;
@@ -45,10 +45,33 @@ main {
     border-radius: 12px;
     background: var(--color-gray-300)
 }
+#projectCard:hover{
+    border: 1.5px solid var(--color-red);
+    background: var(--color-gray-300);
+    cursor: pointer;
+    transition: 0.5s;
+    
+    
+}
+
 
 #projectCard img {
     width: 306px;
     height: 156px;
     flex-shrink: 0;
     border-radius: 8px;
+}
+#projectCard h3{
+    font:var(--title-sm) ;
+    color: var(--color-gray-600);
+    align-self: stretch;
+    /* margin-bottom: 8px; */
+
+}
+#projectCard p{
+    align-self: stretch;
+    font: var(--text-sm);
+    color: var(--color-gray-500);
+    max-width: 298px;
+    /* margin-bottom: 8px; */
 }
