@@ -1,7 +1,7 @@
-main {
-    background:var(--color-gray-200);
+section {
+    background: var(--color-gray-100);
     display: flex;
-    padding: 72px 120px 144px 120px;
+    padding: 88px 120px 120px 120px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -9,8 +9,7 @@ main {
     align-self: stretch;
 }
 
-
-#titleMain h2 {
+#titleSection h2 {
     font: var(--text-subtitle);
     color: var(--color-red);
     align-self: stretch;
@@ -18,14 +17,15 @@ main {
     margin-bottom: 12px;
 }
 
-#titleMain p {
+
+
+#titleSection p {
     font: var(--title-md);
     color: var(--color-gray-600);
 }
 
-.grid {
+.gridSection {
     display: flex;
-    width: 1040px;
     justify-content: center;
     align-items: flex-start;
     align-content: flex-start;
@@ -33,44 +33,32 @@ main {
     flex-wrap: wrap;
 }
 
-#projectCard {
+#serviceCard {
     display: flex;
-    width: 330px;
-    height: 280px;
-    padding: 12px;
+    width: 280px;
+    padding: 20px;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
     gap: 20px;
-    flex-shrink: 0;
     border-radius: 12px;
-    background: var(--color-gray-300)
+    border: 2px solid var(--color-gray-300);
 }
-#projectCard:hover{
-    border: 1.5px solid var(--color-red);
-    background: var(--color-gray-300);
+#serviceCard:hover{
     cursor: pointer;
     transition: 0.5s;
-    
-    
+    border: 1.5px solid var(--color-red);
+    background: var(--color-gray-300);
 }
 
-
-#projectCard img {
-    width: 306px;
-    height: 156px;
-    flex-shrink: 0;
-    border-radius: 8px;
-}
-#projectCard h3{
-    font:var(--title-sm) ;
-    color: var(--color-gray-600);
+.gridSection h3 {
     align-self: stretch;
-    /* margin-bottom: 8px; */
-
+    font: var(--title-sm);
+    color: var(--color-gray-600);
 }
-#projectCard p{
+
+.gridSection p {
     align-self: stretch;
     font: var(--text-sm);
     color: var(--color-gray-500);
-    max-width: 298px;
 }
