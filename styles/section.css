@@ -36,6 +36,7 @@ section {
 #serviceCard {
     display: flex;
     width: 280px;
+    height: 180px;
     padding: 20px;
     flex-direction: column;
     justify-content: center;
@@ -43,12 +44,13 @@ section {
     gap: 20px;
     border-radius: 12px;
     border: 2px solid var(--color-gray-300);
+    transition: background 0.9s, border 0.9s;
+    box-sizing: border-box;
 }
 #serviceCard:hover{
     cursor: pointer;
-    transition: 0.9s;
     border: 1.5px solid var(--color-red);
-    background: var(--color-gray-300);
+    background: var(--color-gray-200);
 }
 
 .gridSection h3 {

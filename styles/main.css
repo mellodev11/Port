@@ -43,14 +43,15 @@ main {
     gap: 20px;
     flex-shrink: 0;
     border-radius: 12px;
-    background: var(--color-gray-300)
-    
+    border: 1.5px solid transparent;
+    background: var(--color-gray-300);
+    transition: border-color 0.9s;
 }
 #projectCard:hover{
-    border: 1.5px solid var(--color-red);
-    background: var(--color-gray-300);
+    border-color:var(--color-red);
+    
     cursor: pointer;
-    transition: 0.9s;
+    background: var(--color-gray-200);
     
     
 }
