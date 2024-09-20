@@ -46,7 +46,7 @@ section {
 }
 #serviceCard:hover{
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.9s;
     border: 1.5px solid var(--color-red);
     background: var(--color-gray-300);
 }
