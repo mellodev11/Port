@@ -1,5 +1,5 @@
 footer {
-    background: url('/assets/Background_Contacts.png') lightgray 50% / cover no-repeat;
+    background: url('/styles/assets/Background_Contacts.png') lightgray 50% / cover no-repeat;
     
     display: flex;
     padding: 128px 120px 200px 120px;
