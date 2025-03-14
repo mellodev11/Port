@@ -59,7 +59,7 @@ footer {
     transition: background 0.9s, border 0.9s;
 }
 .socialButton:hover {
-    border: 1.5px solid var(--color-red);
+    outline: 1.5px solid var(--color-red);
     background: var(--color-gray-100);
     cursor: pointer;
 }

@@ -120,7 +120,7 @@ header {
     gap: 8px;
     text-decoration: none;
     color: white;
-    transition: 0.5s;
+    transition: 5ms;
     
 }
 .tags a:hover{
@@ -287,22 +287,25 @@ header {
     }
     
     #tagCss, #tagGitHub, #tagHTML, #tagJS, #tagNodeJs, #tagReact {
-      padding: 5px 8px;
+      padding: 5px 10px;
       font-size: 0.75rem;
+      width: 100px;
+      
     }
     
     .tags {
-      gap: 10px;
+      gap: 8px;
+      
     }
     
     .tag {
-      gap: 10px;
+      gap: 8px;
     }
     
     #arrowIcon {
-      width: 24px;
-      height: 24px;
-      margin-top: 40px;
-      margin-bottom: 20px;
+      width: 20px;
+      height: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
     }
   }
